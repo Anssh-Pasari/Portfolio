@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="link"><a href="#Home">Home</a> </li>
+        <li class="link"><a href="#Grid view">Grid View</a></li>
+        <li class="link"><a href="#Sliding View">Sliding View</a></li>
+
+    </ul>
+    <section id="Home">
+        <h1>Flower Gallery</h1>
+        <img id="flower" src="Flowers.gif">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="Grid view">
+        <h1>Grid View</h1>
+        <span>
+            <img src="Lotus%20-%20Copy.jpeg">
+            <img src="Rose.jpeg">
+            <img src="three%20small%20daisy%20flowers.jpg">
+        </span>
+    </section>
+    <section id="Sliding View">
+        <h1>Sliding View</h1>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/Lotus" target="_blank">
+                            <img id="sliding_lotus" src="Lotus%20-%20Copy.jpeg" class="img-responsive">
+                        </a>
+                        <div class="carosel-content">
+                            <p>Lotus Flower</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/Rose" target="_blank">
+                            <img id="sliding_rose"src="Rose.jpeg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Rose</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+</section>
+</body>
+
+</html>
